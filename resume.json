@@ -34,7 +34,7 @@
                 "Picked up a legacy Symfony1 application codebase to modernize, refactor and improve it.",
                 "Pulled Laravel Service Container with dependencies auto-wiring into the project.",
                 "Pulled Laravel Job Queue & workers into the project to modernize existing background jobs processing architecture.",
-                "Introduced React/Redux stack to power application customer-facing UI (2016).",
+                "Introduced React/Redux stack to power application customer-facing UI.",
                 "Learned how to use Docker, AWS services; got core knowledge of Kubernetes cloud infrastructure.",
                 "Was the main responsible person for designing and documenting internal REST APIs and then opening them to customers.",
                 "Got great experience on project management and leadership, being a lead developer of a mixed backend/frontend team, lead backend team developer.",
