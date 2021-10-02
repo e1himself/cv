@@ -1,0 +1,589 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Ivan Voskoboinyk</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2e3bcc;
+}
+a:focus,
+a:hover {
+	text-decoration: underline;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #989898;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Ivan Voskoboinyk
+					</h1>
+					<h2>
+						Senior React.js / Full Stack Web Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">
+					<a href="mailto:ivan@voskoboinyk.com">ivan@voskoboinyk.com</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+            <p>Hi! I'm Ivan 👋.</p><p>I was in fond of math since I was seven. In the age of 11 I've first learned this amazing feeling of knowing how to make computers do what I want. Ever since then this became my never-ending passion. </p><p>I've tried many technologies and programming languages, including Pascal, Basic, Flash, Flex, Java, C, C++, 3D game development, HTML, PHP, Go, Javascript, and many others. But the Web technology has always remained my biggest affection. I love how Internet is built by millions of researches and enthusiasts, introducing open standards and technologies layer-by-layer. I truly believe that Web is one the most significant modern technologies that caused an impact on our civilization.</p><p>Now, after having more than 20 years experience programming, and web being approx. 15 years of it, I'm still excited, more than ever, to continue improving myself in building amazing web applications for people to use.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/e1himself">e1himself</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						npm
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.npmjs.com/~e1npm">e1npm</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Packagist
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://packagist.org/users/e1himself/packages/">e1himself</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Prezly</span>
+					<span class="date">
+						2015-05-01 — Present
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://prezly.com/">https://prezly.com/</a>
+				</div>
+				<div class="position">
+					Full-Stack Web Developer / Backend Team Lead Developer
+				</div>
+				<div class="summary">
+					<p>Got an amazing opportunity to join a Belgian startup team of 3 people (founders) in 2015. Got priceless experience growing professionally as the company was growing. Now Prezly is a team of 20 people and a few millions annual recurring revenue.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Picked up a legacy Symfony1 application codebase to modernize, refactor and improve it.</li>
+					<li class="bullet">Pulled Laravel Service Container with dependencies auto-wiring into the project.</li>
+					<li class="bullet">Pulled Laravel Job Queue &amp; workers into the project to modernize existing background jobs processing architecture.</li>
+					<li class="bullet">Introduced React/Redux stack to power application customer-facing UI.</li>
+					<li class="bullet">Learned how to use Docker, AWS services; got core knowledge of Kubernetes cloud infrastructure.</li>
+					<li class="bullet">Was the main responsible person for designing and documenting internal REST APIs and then opening them to customers.</li>
+					<li class="bullet">Got great experience on project management and leadership, being a lead developer of a mixed backend/frontend team, lead backend team developer.</li>
+					<li class="bullet">Implemented an internal integration tests framework to simplify writing integration tests, which helped to increase code coverage for all important parts of the app.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ansata Web Group</span>
+					<span class="date">
+						2011-03-01 — 2015-05-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://ansata.biz/">http://ansata.biz/</a>
+				</div>
+				<div class="position">
+					Full-Stack Web Developer
+				</div>
+				<div class="summary">
+					<p>Worked in a team varying from two to three developers, learning from more experienced colleagues on outsourced e-Commerce websites for B2B apparel companies in US &amp; Canada. Responsibilities included analysis of customer requirements, implementing UI layouts, business logic and integration with external systems.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Got solid knowledge of the Symfony framework and .</li>
+					<li class="bullet">Implemented and open-sourced a number of Symfony1 plugins.</li>
+					<li class="bullet">Extended Sir Trevor JS (an open-source structured-content editor) to add columns layout functionality.</li>
+					<li class="bullet">Initiated &amp; implemented a number of improvements to the development workflows, including switching from SVN to GIT, introducing a PM tool for task tracking, improving frontend dev experience by introducing LESS and SCSS.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Freelance</span>
+					<span class="date">
+						2009-09 — 2011-03
+					</span>
+				</h4>
+				<div class="position">
+					Full-Stack Web Developer &amp; Designer
+				</div>
+				<div class="summary">
+					<p>Switched back web development to further improve my skills and knowledge of the to the internet/web ecosystem.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Implemented a homebrew customizable CMS based on EAV data model to power the websites.</li>
+					<li class="bullet">Learned web accessibility best practices.</li>
+					<li class="bullet">Switched to Ubuntu Linux as main development environment, mastered Bash one-liners for day-to-day tasks.</li>
+					<li class="bullet">Implemented a math notebook client-server application as a hobby project to help with calculations for my Master&#x27;s Thesis research project. Similar to Jupyter Notebook, but based on PHP + Doctrine ORM in backend, and jQuery + LaTeX formulas for frontend.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>NetCracker</span>
+					<span class="date">
+						2008-05 — 2009-09
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://netcracker.com/">https://netcracker.com/</a>
+				</div>
+				<div class="position">
+					Junior Java J2EE Developer
+				</div>
+				<div class="summary">
+					<p>Switched to Java J2EE department to get experience with large-scale enterprise project backend development.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">As part of the Sales department was working on implementing demos and PoCs of large-scale projects for enterprise customers.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>NetCracker</span>
+					<span class="date">
+						2007-06 — 2008-05
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://netcracker.com/">https://netcracker.com/</a>
+				</div>
+				<div class="position">
+					Junior PL/SQL Developer
+				</div>
+				<div class="summary">
+					<p>Joined an international enterprise company to get experience with corporate project management / development workflows.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Worked close with an experienced Senior PL/SQL developer to implement and maintain performance-critical enterprise application business-logic via SQL and PL/SQL stored procedures.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Freelance</span>
+					<span class="date">
+						2006-03 — 2007-06
+					</span>
+				</h4>
+				<div class="position">
+					Full-Stack Web Developer &amp; Designer
+				</div>
+				<div class="summary">
+					<p>Self-learned to use Photoshop, HTML, CSS, JS, jQuery, PHP, and SQL to cover the full circle of website development process.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Learned how to host and maintain websites, how DNS works.</li>
+					<li class="bullet">Mastered Photoshop to make visual designs for websites.</li>
+					<li class="bullet">Implemented, maintained and hosted an FTP search engine for a local neighbourhood network (~2000 hosts) as a hobby project.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>National Technical University of Ukraine</span>
+					<span class="date">
+						2008-09 — 2010-06
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Master
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>National Technical University of Ukraine</span>
+					<span class="date">
+						2004-09 — 2008-06
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>DGTL Information Technology Lyceum</span>
+					<span class="date">
+						1999-09 — 2004-06
+					</span>
+				</h4>
+				<div class="area">
+					Math &amp; Computer Science
+				</div>
+				<div class="studyType">
+					High-school
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Software architecture</h4>
+				</div>
+				<ul class="keywords">
+					<li>Database design</li>
+					<li>API design</li>
+					<li>Infrastructure</li>
+					<li>Scalability</li>
+					<li>Integrations</li>
+					<li>Event-Sourcing</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>React.js</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>Javascript</li>
+					<li>Typescript</li>
+					<li>Hooks</li>
+					<li>Context</li>
+					<li>Redux</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>SCSS</li>
+					<li>LESS</li>
+					<li>Javascript</li>
+					<li>Typescript</li>
+					<li>Accessibility</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>PHP</h4>
+				</div>
+				<ul class="keywords">
+					<li>SOLID</li>
+					<li>TDD</li>
+					<li>DI</li>
+					<li>ORM</li>
+					<li>Propel</li>
+					<li>Doctrine</li>
+					<li>Symfony</li>
+					<li>Laravel</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Amazon Web Services (AWS)</h4>
+				</div>
+				<ul class="keywords">
+					<li>S3</li>
+					<li>CloudFront</li>
+					<li>SQS</li>
+					<li>RDS</li>
+					<li>ECR</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Fluent
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Ukrainian</strong>
+				</div>
+				<div class="fluency">
+					Native Speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Russian</strong>
+				</div>
+				<div class="fluency">
+					Fluent
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+
+	</div>
+	
+	</body>
+</html>
