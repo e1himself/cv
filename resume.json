@@ -62,6 +62,7 @@
             "startDate": "2009-09",
             "endDate": "2011-03",
             "location": "Kyiv, Ukraine",
+            "summary": "Switched back web development to further improve my skills and knowledge of the to the internet/web ecosystem.",
             "highlights": [
                 "Implemented a homebrew customizable CMS based on EAV data model to power the websites.",
                 "Learned web accessibility best practices.",
@@ -76,6 +77,7 @@
             "startDate": "2008-05",
             "endDate": "2009-09",
             "location": "Kyiv, Ukraine",
+            "summary": "Switched to Java J2EE department to get experience with large-scale enterprise project backend development.",
             "highlights": [
                 "As part of the Sales department was working on implementing demos and PoCs of large-scale projects for enterprise customers."
             ]
@@ -87,6 +89,7 @@
             "startDate": "2007-06",
             "endDate": "2008-05",
             "location": "Kyiv, Ukraine",
+            "summary": "Joined an international enterprise company to get experience with corporate project management / development workflows.",
             "highlights": [
                 "Worked close with an experienced Senior PL/SQL developer to implement and maintain performance-critical enterprise application business-logic via SQL and PL/SQL stored procedures."
             ]
@@ -97,8 +100,8 @@
             "startDate": "2006-03",
             "endDate": "2007-06",
             "location": "Kyiv, Ukraine",
+            "summary": "Self-learned to use Photoshop, HTML, CSS, JS, jQuery, PHP, and SQL to cover the full circle of website development process.",
             "highlights": [
-                "Self-learned to use PHP, SQL, HTML, CSS, JS, jQuery to build websites.",
                 "Mastered Photoshop to make visual designs for websites.",
                 "Learned how to host and maintain websites, how DNS works.",
                 "Implemented, maintained and hosted an FTP search engine for a local neighbourhood network (~2000 hosts) as a hobby project."
