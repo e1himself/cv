@@ -174,7 +174,7 @@
     ],
     "education": [
         {
-            "institution": "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”",
+            "institution": "National Technical University of Ukraine",
             "url": "https://kpi.ua/en",
             "area": "Computer Science",
             "studyType": "Master",
@@ -182,7 +182,7 @@
             "endDate": "2010-06"
         },
         {
-            "institution": "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”",
+            "institution": "National Technical University of Ukraine",
             "url": "https://kpi.ua/en",
             "area": "Computer Science",
             "studyType": "Bachelor",
@@ -190,7 +190,7 @@
             "endDate": "2008-06"
         },
         {
-            "institution": "DGTL Information Technology / Humanitarian Lyceum",
+            "institution": "DGTL Information Technology Lyceum",
             "area": "Math & Computer Science",
             "studyType": "High-school",
             "startDate": "1999-09",
