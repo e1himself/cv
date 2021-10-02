@@ -134,6 +134,20 @@
             ]
         },
         {
+            "name": "PHP backend development",
+            "level": "Master",
+            "keywords": [
+                "SOLID",
+                "TDD",
+                "DI",
+                "ORM",
+                "Propel",
+                "Doctrine",
+                "Symfony",
+                "Laravel"
+            ]
+        },
+        {
             "name": "Web development",
             "level": "Master",
             "keywords": [
@@ -144,17 +158,6 @@
                 "Javascript",
                 "Typescript",
                 "Accessibility"
-            ]
-        },
-        {
-            "name": "PHP backend development",
-            "level": "Master",
-            "keywords": [
-                "PHP",
-                "SOLID",
-                "TDD",
-                "ORM",
-                "Symfony"
             ]
         },
         {
