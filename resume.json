@@ -1,0 +1,279 @@
+{
+    "basics": {
+        "name": "Ivan Voskoboinyk",
+        "label": "Senior React.js / PHP / PostgreSQL / Full Stack Web Developer",
+        "email": "ivan@voskoboinyk.com",
+        "url": "https://voskoboinyk.com/",
+        "summary": "",
+        "location": {
+            "countryCode": "UA",
+            "city": "Kyiv"
+        },
+        "profiles": [
+            {
+                "network": "Github",
+                "username": "e1himself",
+                "url": "https://github.com/e1himself"
+            },
+            {
+                "network": "Packagist",
+                "username": "technically",
+                "url": "https://packagist.org/packages/technically/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Freelance",
+            "position": "Full-Stack Web Developer & Designer",
+            "startDate": "2006-03",
+            "endDate": "2007-06",
+            "location": "Kyiv, Ukraine",
+            "highlights": [
+                "Learned to use PHP/SQL/HTML/CSS/JS/jQuery to build websites.",
+                "Mastered Photoshop to make visual designs for websites.",
+                "Implemented, maintained and hosted an FTP search engine for a local neighbourhood network (~2000 hosts) as a hobby project."
+            ]
+        },
+        {
+            "name": "NetCracker",
+            "url": "https://netcracker.com/",
+            "position": "Junior PL/SQL Developer",
+            "startDate": "2007-06",
+            "endDate": "2008-05",
+            "location": "Kyiv, Ukraine",
+            "highlights": [
+                "Worked close with an experienced Senior PL/SQL developer to implement and maintain performance-critical enterprise application business-logic via SQL and PL/SQL stored procedures."
+            ]
+        },
+        {
+            "name": "NetCracker",
+            "url": "https://netcracker.com/",
+            "position": "Junior Java J2EE Developer",
+            "startDate": "2008-05",
+            "endDate": "2009-09",
+            "location": "Kyiv, Ukraine",
+            "highlights": [
+                "As part of the Sales department was working on implementing demos and PoCs of large-scale projects for enterprise customers."
+            ]
+        },
+        {
+            "name": "Freelance",
+            "position": "Full-Stack Web Developer & Designer",
+            "startDate": "2009-09",
+            "endDate": "2011-03",
+            "location": "Kyiv, Ukraine",
+            "highlights": [
+                "Implemented a homebrew customizable CMS based on EAV data model to power the websites.",
+                "Learned web accessibility best practices.",
+                "Switched to Ubuntu Linux as main development environment, mastered Bash one-liners for day-to-day tasks.",
+                "Implemented a math notebook client-server application as a hobby project to help with calculations for my Master's Thesis research project. Similar to Jupyter Notebook, but based on PHP + Doctrine ORM in backend, and jQuery + LaTeX formulas for frontend."
+            ]
+        },
+        {
+            "name": "Ansata Web Group",
+            "url": "http://ansata.biz/",
+            "position": "Full-Stack Web Developer",
+            "startDate": "2011-03-01",
+            "endDate": "2015-05-01",
+            "summary": "Worked in a team varying from two to three developers, learning from more experienced colleagues on outsourced e-Commerced websites for B2B apparel companies in US & Canada. Responsibilities included analysis of customer requirements, implementing UI layouts & business logic.",
+            "location": "Kyiv, Ukraine",
+            "highlights": [
+                "Got solid knowledge of the Symfony framework and .",
+                "Implemented and open-sourced a number of Symfony1 plugins.",
+                "Extended Sir Trevor JS (an open-source structured-content editor) to add columns layout functionality.",
+                "Initiated & implemented a number of improvements to the development workflows, including switching from SVN to GIT, introducing a PM tool for task tracking, improving frontend dev experience by introducing LESS and SCSS."
+            ]
+        },
+        {
+            "name": "Prezly",
+            "url": "https://prezly.com/",
+            "position": "Full-Stack Web Developer / Backend Team Lead Developer",
+            "location": "Leuven, Belgium (remotely)",
+            "startDate": "2015-05-01",
+            "summary": "Got an amazing opportunity to join a Belgian startup team of 3 people (founders) in 2015. Got priceless experience growing professionally as the company was growing. Now Prezly is a team of 20 people and a few millions annual recurring revenue.",
+            "highlights": [
+                "Picked up a legacy Symfony1 application codebase to modernize, refactor and improve it.",
+                "Pulled Laravel Service Container with dependencies auto-wiring into the project.",
+                "Pulled Laravel Job Queue & workers into the project to modernize existing background jobs processing architecture.",
+                "Introduced React/Redux stack to power application customer-facing UI (2016).",
+                "Learned how to use Docker, AWS services; got core knowledge of Kubernetes cloud infrastructure.",
+                "Was the main responsible person for designing and documenting internal REST APIs and then opening them to customers.",
+                "Got great experience on project management and leadership, being a lead developer of a mixed backend/frontend team, lead backend team developer.",
+                "Implemented an internal integration tests framework to simplify writing integration tests, which significantly increased code coverage for all important parts of the app."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "PHP backend development",
+            "level": "Master",
+            "keywords": [
+                "PHP",
+                "SOLID",
+                "TDD",
+                "ORM",
+                "Symfony"
+            ]
+        },
+        {
+            "name": "Web development",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "SCSS",
+                "LESS",
+                "Javascript",
+                "Typescript"
+            ]
+        },
+        {
+            "name": "React.js",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "Javascript",
+                "Typescript",
+                "Hooks",
+                "Context",
+                "Redux"
+            ]
+        },
+        {
+            "name": "Software architecture",
+            "level": "Strong",
+            "keywords": [
+                "SoC",
+                "SRP",
+                "Integrations",
+                "Scalability",
+                "Event-Sourcing",
+                "Infrastructure"
+            ]
+        },
+        {
+            "name": "Amazon Web Services (AWS)",
+            "level": "Confident",
+            "keywords": [
+                "S3",
+                "CloudFront",
+                "SQS",
+                "RDS",
+                "ECR"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "DGTL Information Technology / Humanitarian Lyceum",
+            "area": "Math & Computer Science",
+            "studyType": "High-school",
+            "startDate": "1999-09",
+            "endDate": "2004-06",
+            "score": "4.9"
+        },
+        {
+            "institution": "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”",
+            "url": "https://kpi.ua/en",
+            "area": "Computer Science",
+            "studyType": "Bachelor of Science",
+            "startDate": "2004-09",
+            "endDate": "2008-06"
+        },
+        {
+            "institution": "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”",
+            "url": "https://kpi.ua/en",
+            "area": "Computer Science",
+            "studyType": "Master of Science",
+            "startDate": "2008-09",
+            "endDate": "2010-06"
+        }
+    ],
+    "awards": [
+        {
+            "awarder": "Kryvyi Rih Elementary School No. 81",
+            "date": "1997-02-12",
+            "title": "1st prize in Math Contest",
+            "summary": "School Math Contest among 3rd grade students"
+        },
+
+
+        {
+            "awarder": "Kryvyi Rih City Education Department",
+            "date": "2003-02",
+            "title": "1st prize in Math Contest",
+            "summary": "Math Contest among all 10th grade high-school students of the Kryvyi Rih City"
+        },
+        {
+            "awarder": "Kryvyi Rih City Education Department",
+            "date": "2003-02-05",
+            "title": "3nd prize in Algorithm Coding Contest",
+            "summary": "Algorithm Coding Contest among all 10th grade high-school students of the the Kryvyi Rih City"
+        },
+        {
+            "awarder": "Dnipropetrovsk Oblast Education Department",
+            "date": "2003-04-14",
+            "title": "3rd prize in Algorithm Coding Contest",
+            "summary": "Algorithm Coding Contest among all 10th grade high-school students of the Dnipropetrovsk Oblast"
+        },
+        {
+            "awarder": "Kryvyi Rih City Education Department",
+            "date": "2003-05-22",
+            "title": "1st prize in CG / Animation Contest",
+            "summary": "Made a 3D graphics platform TCP network multiplayer game using Blitz Basic 3D engine"
+        },
+
+
+        {
+            "awarder": "Kryvyi Rih City Education Department",
+            "date": "2004-01",
+            "title": "1st prize in Math Research Project Contest",
+            "summary": "Research project on usage of Barycentric coordinate system for solving geometrical problems"
+        },
+        {
+            "awarder": "Kryvyi Rih City Education Department",
+            "date": "2004-01",
+            "title": "1st prize in CG / Animation Contest",
+            "summary": "Made a 3D graphics 3rd person action game using Blitz Basic 3D engine"
+        },
+        {
+            "awarder": "Kryvyi Rih City Education Department",
+            "date": "2004-02",
+            "title": "1st prize in Math Contest",
+            "summary": "Math Contest among all 11th grade high-school students of the Kryvyi Rih City"
+        },
+        {
+            "awarder": "Kryvyi Rih City Education Department",
+            "date": "2004-02",
+            "title": "2nd prize in Algorithm Coding Contest",
+            "summary": "Algorithm Coding Contest among all 11th grade high-school students of the the Kryvyi Rih City"
+        },
+        {
+            "awarder": "Dnipropetrovsk Oblast Education Department",
+            "date": "2004-03-01",
+            "title": "1st prize in Math & Coding Project Contest",
+            "summary": "3D graphics 3rd person action game using Blitz Basic 3D engine"
+        },
+        {
+            "awarder": "Dnipropetrovsk Oblast Education Department",
+            "date": "2004-04-07",
+            "title": "2nd prize in Algorithm Coding Contest",
+            "summary": "Algorithm Coding Contest among all 11th grade high-school students of the Dnipropetrovsk Oblast"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        },
+        {
+            "language": "Ukrainian",
+            "fluency": "Native Speaker"
+        },
+        {
+            "language": "Russian",
+            "fluency": "Fluent"
+        }
+    ]
+}
