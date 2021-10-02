@@ -106,26 +106,15 @@
     ],
     "skills": [
         {
-            "name": "PHP backend development",
-            "level": "Master",
+            "name": "Software architecture",
+            "level": "Solid",
             "keywords": [
-                "PHP",
-                "SOLID",
-                "TDD",
-                "ORM",
-                "Symfony"
-            ]
-        },
-        {
-            "name": "Web development",
-            "level": "Master",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "SCSS",
-                "LESS",
-                "Javascript",
-                "Typescript"
+                "Database design",
+                "API design",
+                "Infrastructure",
+                "Scalability",
+                "Integrations",
+                "Event-Sourcing"
             ]
         },
         {
@@ -141,15 +130,27 @@
             ]
         },
         {
-            "name": "Software architecture",
-            "level": "Strong",
+            "name": "Web development",
+            "level": "Master",
             "keywords": [
-                "SoC",
-                "SRP",
-                "Integrations",
-                "Scalability",
-                "Event-Sourcing",
-                "Infrastructure"
+                "HTML",
+                "CSS",
+                "SCSS",
+                "LESS",
+                "Javascript",
+                "Typescript",
+                "Accessibility"
+            ]
+        },
+        {
+            "name": "PHP backend development",
+            "level": "Master",
+            "keywords": [
+                "PHP",
+                "SOLID",
+                "TDD",
+                "ORM",
+                "Symfony"
             ]
         },
         {
