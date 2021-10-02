@@ -16,6 +16,11 @@
                 "url": "https://github.com/e1himself"
             },
             {
+                "network": "npm",
+                "username": "e1npm",
+                "url": "https://www.npmjs.com/~e1npm"
+            },
+            {
                 "network": "Packagist",
                 "username": "technically",
                 "url": "https://packagist.org/packages/technically/"
