@@ -166,14 +166,14 @@
             ]
         },
         {
-            "name": "Amazon Web Services (AWS)",
+            "name": "Cloud Infrastructure",
             "level": "Confident",
             "keywords": [
-                "S3",
-                "CloudFront",
-                "SQS",
-                "RDS",
-                "ECR"
+                "Amazon Web Services (AWS)",
+                "Kubernetes",
+                "Docker",
+                "Docker-Compose",
+                "Linux"
             ]
         }
     ],
