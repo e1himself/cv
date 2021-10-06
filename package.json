@@ -1,0 +1,23 @@
+{
+  "name": "ivan-voskoboinyk-cv",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Ivan Voskoboinyk CV",
+  "author": "Ivan Voskoboinyk",
+  "keywords": [
+    "gatsby",
+    "cv"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.13.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
